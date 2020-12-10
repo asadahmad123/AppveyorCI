@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Lambdatest ToDO Scenario",
+        "description": "",
+        "id": "add-new-item-to-todo-list;lambdatest-todo-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 597138652,
+              "error_message": "java.lang.Error: Unresolved compilation problems: \n\tConfiguration cannot be resolved\n\tConfiguration cannot be resolved\n\tConfiguration cannot be resolved\n\tConfiguration cannot be resolved\n\tConfiguration cannot be resolved\n\tConfiguration cannot be resolved\n\n\tat stepDefinitions.ToDoStepDefinition.user_already_on_home_page(ToDoStepDefinition.java:24)\n\tat ✽.Given user is on home Page(todo.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is on home Page",
+            "match": {
+              "location": "ToDoStepDefinition.user_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "select First Item",
+            "match": {
+              "location": "ToDoStepDefinition.select_first_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "select second item",
+            "match": {
+              "location": "ToDoStepDefinition.select_second_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "add new item",
+            "match": {
+              "location": "ToDoStepDefinition.add_new_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "verify added item",
+            "match": {
+              "location": "ToDoStepDefinition.verify_added_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Update the result",
+            "match": {
+              "location": "ToDoStepDefinition.update_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "ToDoStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add new item to ToDO list",
+    "description": "",
+    "id": "add-new-item-to-todo-list",
+    "keyword": "Feature",
+    "uri": "todo.feature"
+  }
+]
